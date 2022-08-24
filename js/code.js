@@ -164,6 +164,7 @@ const code = `
     border-radius: 50px; 
 }
 /* 好啦，一只可爱的皮卡丘画好啦！ */
+/* 点击匹拉丘的舌头有惊喜哦！试试看吧！ */
 `
 
  export default code

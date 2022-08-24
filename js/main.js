@@ -32,6 +32,13 @@ $(
                     break  
             }
         })
+
+        const lower = document.querySelector(".lowerLip")
+        lower.addEventListener("click", function(){
+            const audio = document.querySelector("audio")
+            audio.play()
+        })
+        
         // 开始播放的函数设置
         function  writeCode(code) {
             // 获取id为code的元素节点
